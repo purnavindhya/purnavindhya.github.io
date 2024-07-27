@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Purna Vindhya Kota"
 title_separator          : "-"
 name                     : &name "Purna Vindhya Kota"
-description              : &description "Incoming PhD student at Johns Hopkins University in Department of Civil & Systems Engineering"
+description              : &description "PhD student at Johns Hopkins University"
 url                      : https://purnavindhya.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "purnavindhya/purnavindhya.github.io"
@@ -40,7 +40,7 @@ staticman:
   path                   : "_data/comments/{options.slug}"
   requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email                : "pkota2@jh.edu"
   generatedFields:
     date:
       type               : "date"
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter 
+  username               : &VindhyaPurna 
   facebook               :
   username               :
   app_id                 :
@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Purna Vindhya Kota"
   avatar           : "profile.png"
-  bio              : "Vinji bio"
-  location         : "India"
+  bio              : "I am a PhD student at the Department of Civil & Systems Engineering, Johns Hopkins University. My research area is deep learning for computational solid mechanics."
+  location         : "Baltimore, USA"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : 
+  pubmed           : 
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=rde5hl4AAAAJ"
   email            : "pkota2@jh.edu"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -100,16 +100,16 @@ author:
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      : 
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  LinkedIn         : "www.linkedin.com/in/purnavindhya"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "VindhyaPurna"
   vine             :
   weibo            :
   xing             :
