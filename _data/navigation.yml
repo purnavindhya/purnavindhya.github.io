@@ -6,8 +6,8 @@ main:
   - title: "Work Experience"
     url: /workex/ 
 
-  - title: "Research"
-    url: /research/
+  - title: "Research / Publications"
+    url: /publications/
     
   - title: "CV"
     url: /cv/
